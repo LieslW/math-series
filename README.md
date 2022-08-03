@@ -13,7 +13,7 @@ i.e.
 **PORT** - N/A  
 **DATABASE_URL** - snakes_cafe.py
 
-[Math Series](snakes_cafe.py)
+[Math Series](math_series/series.py)
 
 How to use your library (where applicable)
 
