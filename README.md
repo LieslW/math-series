@@ -11,11 +11,22 @@ Author: Liesl White
 i.e.
 
 **PORT** - N/A  
-**DATABASE_URL** - snakes_cafe.py
+**DATABASE_URL** - series.py
 
 [Math Series](math_series/series.py)
 
-How to use your library (where applicable)
+How to use your library (where applicable):
+
+```python
+
+# Activate .venv
+source .venv/bin/Activate
+# Make sure you have installed pytest
+pip3 install pytest
+# Run your test
+pytest
+
+```
 
 ## Tests
 
