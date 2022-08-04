@@ -7,7 +7,17 @@ def fibonacci(n):
     else:
         return fibonacci(n-1) + fibonacci(n-2)
 
-# def lucas
+
+def lucas(n):
+    """
+    The Lucas Numbers are similar to the Fibonacci sequence, but it starts with integers 2 and 1. This function will return the value at whatever given position (input for n)
+    """
+    if n <= 1:
+        if n == 0:
+            return 2
+        else:
+            return 1
+        return lucas(n-1) + lucas(n-2)
 
 
 # def sum_series
