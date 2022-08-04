@@ -18,4 +18,3 @@ i.e.
 How to use your library (where applicable)
 
 ## Tests
-No tests for Lab 01
