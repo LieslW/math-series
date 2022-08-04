@@ -18,3 +18,7 @@ i.e.
 How to use your library (where applicable)
 
 ## Tests
+
+Did two types of tests for each function:
+- Checked if the output is an integer
+- Checked if the output matches the description of the function
