@@ -1,4 +1,4 @@
-from math_series.series import fibonacci, lucas
+from math_series.series import fibonacci, lucas, sum_series
 
 
 def test_fibonacci_if_int():
@@ -26,4 +26,19 @@ def test_lucas_zero():
     actual = lucas(0)
     assert actual == expected
 
+
+def test_lucas_one():
+    expected = 3
+    actual = lucas(2)
+    assert actual == expected
+
+
+def test_sum_series_if_int():
+    assert type(sum_series(6, 0, 1)) is int
+
+
+def test_sum_series_one():
+    expected = 8
+    actual = sum_series(6, 0, 1)
+    assert actual == expected
 
