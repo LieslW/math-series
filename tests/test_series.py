@@ -38,7 +38,7 @@ def test_sum_series_if_int():
 
 
 def test_sum_series_one():
-    expected = 8
-    actual = sum_series(6, 0, 1)
+    expected = 11
+    actual = sum_series(5, 2, 1)
     assert actual == expected
 
